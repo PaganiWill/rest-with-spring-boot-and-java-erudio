@@ -25,7 +25,7 @@ jobs:
         distribution: 'adopt'
         cache: maven
         
-    - name: Build Application JAR
+    - name: Build Application JARr
       working-directory: ./07_verbos/rest-with-spring-boot-and-java-erudio
       run: mvn clean package -DskipTests
       
